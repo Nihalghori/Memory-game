@@ -7,12 +7,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin-top: 80px;
 }
-h1{
-    position: absolute;
-    top: 0px;
-    font-size: 60px;
-    color: aliceblue;
-}
+
 .memory-game {
     width: 640px;
     height: 640px;
@@ -83,4 +78,24 @@ h1{
     float: right;
     font-size: 28px;
     font-weight: bold
+}
+h1 {
+    position: absolute;
+    top: 0;
+    font-size: 60px;
+    color: aliceblue;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 45px; /* Adjust font size for medium devices */
+    }
+}
+
+/* Small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 30px; /* Adjust font size for small devices */
+    }
 }
